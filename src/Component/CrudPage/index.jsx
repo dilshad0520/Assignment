@@ -15,8 +15,6 @@ const Crudpage = () => {
     website: "",
   });
 
-  const [isSelected, setSelected] = useState();
-
   const getData = async () => {
     const url = "https://656894a69927836bd975143f.mockapi.io/users";
     try {
